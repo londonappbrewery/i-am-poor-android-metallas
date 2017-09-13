@@ -15,16 +15,17 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="false"
         android:layout_alignWithParentIfMissing="false"
-        android:layout_centerHorizontal="true"
         android:layout_centerInParent="false"
-        android:layout_centerVertical="false"
-        android:layout_marginTop="22dp"
         android:scrollHorizontally="false"
         android:text="@string/i_am_poor"
         android:textColor="@android:color/black"
-        android:textSize="40sp"/>
+        android:textSize="40sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"/>
 
     <ImageView
         android:id="@+id/imageView"
